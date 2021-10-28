@@ -1,7 +1,8 @@
 package ClassAndObject;
 
 public class Student {
-
+	
+	String email;
 	String name;
 	int age;
 	int id;
@@ -14,6 +15,7 @@ public class Student {
 	// Definition - anything before the body
 	// implementation - the code inside the body of the method
 	public Student() {
+		email = "";
 		name = "";
 		age = 0;
 		id = 0;
